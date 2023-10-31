@@ -1,0 +1,1 @@
+python -m hipop --plan hadd-max --ol sorted --hadd hadd-reuse --domain ~/code/HTN_Planner/domains/FindTreasure/domain.hddl --problem ~/code/HTN_Planner/domains/FindTreasure/problem.hddl --actions_reward ~/code/HTN_Planner/intrinsic_reward/FindTreasure/action_reward_1.npy --methods_reward NONE 2>&1 | tee ~/code/FindTreasure/out/FindTreasure_1.out
